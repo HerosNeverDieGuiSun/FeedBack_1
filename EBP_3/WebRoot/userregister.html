@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="utf-8">
+  	<title>用户注册</title>
+  	<link rel="SHORTCUT ICON" href="images/icon.ico" />
+  	<link rel="stylesheet" href="css/userregister.css">
+</head>
+<body style="background-image:url(images/bg.jpg);">
+	<div class="title">
+	  <h1>电子商务平台</h1>
+	</div>
+	<div class="regfield">
+		<fieldset id="field">
+			<legend>用 户 注 册:</legend><br>
+	
+	    	<form class="regislation" action="index.jsp" method="post">
+		      	<div class="photo">
+		        	头&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;像:&nbsp;&nbsp;<img src="http://img4.cache.netease.com/ent/2011/3/19/201103191502022a25f.jpg" alt="头像" width="80px" height="100px" id="pic"><br><br>
+		      	</div>
+	
+				用 户 名 :&nbsp;<input type="text" name="username" value=""><br><br>
+				密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码 : <input type="password" name="userpwd" value=""><br><br>
+				确认密码: <input type="password" name="checkpwd" value=""><br><br>
+			
+				真实姓名: <input type="text" name="realname" value=""><br><br>
+				性&nbsp;&nbsp;&nbsp;&nbsp;别:&nbsp;&nbsp; <input type="radio" name="gender" value="男" checked>男
+			    &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="gender" value="女">女<br><br>
+				身份证号: <input type="text" name="idno" value=""><br><br>
+				年 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;龄: <select class="age" name="selectAge">
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+					<option value="21">21</option>
+				</select><br><br>
+				通讯地址: <input type="text" name="addr" value=""><br><br>
+				联系电话: <input type="text" name="tel" value=""><br><br>
+		
+				<div class="btns">
+					<input type="submit" name="reg" id="regbtn" value="注册">
+				  	<button type="reset" name="reset" id="resetbtn">重置</button>
+				  	<a href="index.jsp"><button type="button" name="return" id="retbtn">返回</button></a>
+				</div><br>
+	    	</form>
+		</fieldset>
+	</div>
+</body>
+</html>

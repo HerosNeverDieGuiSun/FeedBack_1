@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>用户登录</title>
+    <link rel="SHORTCUT ICON" href="images/icon.ico" />
+    <link rel="stylesheet" href="css/userlog.css">
+</head>
+
+<body style="background-image:url(images/bg.jpg)">
+    <div class="title">
+      <h1>电子商务平台</h1>
+    </div>
+   	<div class="loginfield">
+      	<fieldset id="field">
+        <legend>用 户 登 录:</legend>
+        	<form class="userlogin" action="index.jsp" method="post">
+	          	<br>用 户 名: <input type="text" name="username" value="" size="20"><br><br>
+	          		 密&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;码: <input type="password" name="userpwd" value="" size="20"><br><br>
+		         	 验 证 码: <input type="text" name="verify" value="" size="20"><br><br>
+	          	<div class="btns">
+	            	<input type="submit" name="yes" value="登录" id="loginbtn">
+	            	&nbsp;&nbsp;<input type="reset" name="reset" value="重置" id="resetbtn">&nbsp;&nbsp;
+	            	<a href="userregister.html"><input type="button" name="reg" value="注册" id="registerbtn"></a>
+	          	</div><br>
+      		</form>
+      	</fieldset>
+    </div>
+  </body>
+</html>

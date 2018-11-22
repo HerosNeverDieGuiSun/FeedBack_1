@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+	<Resource
+		name="jdbc/ebp"
+		type="javax.sql.DataSource"
+		maxtActive ="100"
+		maxIdle="30"
+		maxWait="5000" 
+		username="root"
+		password="zheng85673062"
+		dirverClassName="com.mysql.cj.jdbc.Driver"
+		url="jdbc:mysql://localhost:3306/ebp?serverTimezone=GMT&amp;useSSL=false"/>
+		
+</Context>

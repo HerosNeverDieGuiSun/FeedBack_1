@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+#log {
+  padding-left: 1220px;
+  padding-top: 30px;
+  display: flex;
+}
+
+#log a {
+  width: 35px;
+  height: 20px;
+  font-size: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: #FF1493;
+}
+
+#log a:hover {
+  background-color: #CD3278;
+}
+
+.title {
+  padding-left: 200px;
+  display: flex;
+}
+
+#tsearch {
+  margin-left: 370px;
+  border: 2px solid #FF1493;
+  width: 300px;
+  height: 40px;
+  align-self: center;
+}
+
+#ssearch {
+  border: 0;
+  padding: 0;
+  width: 50px;
+  height: 40px;
+  color: white;
+  background-color: #FF1493;
+  align-self: center;
+}
+
+.menu {
+  width: 1300px;
+  padding-left: 200px;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  border: 0;
+  padding-left: 60px;
+  overflow: hidden;
+  background-color: #E3E3E3;
+}
+
+.menu ul li {
+  float: left;
+}
+
+.active {
+  background-color: #FF1493;
+}
+
+.menu a {
+  text-decoration: none;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.menu a:hover {
+  background-color: #FF1493;
+}
+
+#split {
+  border: 2px solid #FF1493;
+}
+
+#head {
+  background-color: #E3E3E3;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* 骞荤伅鐗囧鍣� */
+.slideshow-container {
+  max-width: 1130px;
+  position: relative;
+  margin-left: 200px;
+}
+
+.b {
+  width: 50px;
+  height: 30px;
+  margin-left: 500px;
+}
+
+#returnbtn {
+  border: 0;
+  width: 80px;
+  height: 50px;
+  font-size: 15px;
+  background-color: #FF1493;
+  border-radius: 5px;
+}
+
+.btn {
+  border: 0;
+  width: 80px;
+  height: 50px;
+  font-size: 15px;
+  background-color: #FF1493;
+  border-radius: 5px;
+}
